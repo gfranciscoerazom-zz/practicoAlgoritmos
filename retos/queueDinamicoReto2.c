@@ -4,6 +4,7 @@
 
 int rear = -1, values[SIZE];
 
+// Al eliminar un valor del queue se recorre todos los valores del array una posición hacia adelante y el rear reduce en 1
 void deQueue() {
     if(rear == -1)
         printf("No se puede sacar el valor, porque el queue está vacio");
@@ -16,6 +17,7 @@ void deQueue() {
     }
 }
 
+// Al aumentar un valor en el queue se lo agrega una poscición más adelante del rear y se aumenta el rear en 1
 void enQueue() {
     int value;
     if(rear == SIZE - 1)
