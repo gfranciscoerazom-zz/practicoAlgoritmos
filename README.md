@@ -26,3 +26,6 @@ Crear un User Defined Data Type a elección propia.
 
 ### queueDinamicoReto2.c
 Crear un queue dinámico, o sea que se pueda ingresar información y quitarla a preferencia del usuario.
+
+### quickSort.c
+Se implemento un algoritmo de ordenamiento de tipo quickSort.
